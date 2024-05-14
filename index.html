@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/45ed6d591e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           <ul>
+            <li><b><a href="#header">Home</a></li></b>
+            <li><b><a href="#about">About</a></li></b>
+            <li><b><a href="#portfolio">Portfolio</a></li></b>
+            <li><b><a href="#contact">Contact</a></li></b>
+           </ul>
+        </nav>
+        <div class="header-text">
+            <p>PROGRAMMER/STUDENTS</p>
+            <h1>Hi, I'm<span> France</span><br>from Malabon</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>"As an IT student, I'm fueled by a deep curiosity for how technology shapes our world 
+                    and a passion for unraveling its complexities. From coding late into the night to
+                    collaborating with peers on exciting projects, I'm on a mission to not only master
+                    the latest tech but also make a meaningful impact in the digital landscape."</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Flexible at all cost</span><br>Skills</li>
+                        <li><span>Teamwork/Collaboration</span><br>Adaptability/Flexibility</li>
+                        <li><span>Multitasking</span><br>Customer Service</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>Looc Occ Mindoro</li>
+                        <li><span>2020</span><br>Navotas National High School</li>
+                        <li><span>2022</span><br>Arellano University</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li>"Entering the workforce for the first time, I bring a fresh perspective, enthusiasm, and a commitment to learning and growing professionally. With a solid foundation in Communication Skills, I am eager to embark on this new journey and make a positive impact within your organization."</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
+<!-- -------services------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Eligendi, corrupti soluta mollitia, quam minima temporibus
+                ratione explicabo laudantium ullam nam distinctio illo!.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-tablet"></i>
+                <h2>Tablets Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Eligendi, corrupti soluta mollitia, quam minima temporibus
+                    ratione explicabo laudantium ullam nam distinctio illo!.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <h2>Phone Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Eligendi, corrupti soluta mollitia, quam minima temporibus
+                    ratione explicabo laudantium ullam nam distinctio illo!.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="portfolio-list">
+            <div class="portfolio">
+                <img src="port1.jpg">
+                <div class="layer">
+                    <h3>SM Pic</h3>
+                    <p>"Learning to code is like learning a new language,
+                    it opens up a whole new world of possibilities."</p>
+                    <a href="#">Click</a>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <img src="port2.jpg">
+                <div class="layer">
+                    <h3>Ppark Pic</h3>
+                    <p>"Embrace the bugs, for they are the stepping 
+                    stones on the path to mastering the code."</p>
+                    <a href="#">Click</a>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <img src="port3.jpg">
+                <div class="layer">
+                    <h3>Moa Pic</h3>
+                    <p>"Debugging is like solving puzzles, every line of
+                     code you fix brings you closer to the solution."</p>
+                    <a href="#">Click</a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ---------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> fjroblestorregoza@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09072719163</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    <a href=""><i class="fa-solid fa-phone" style="color: #fcfbff;"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright by France.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+</body>
+</html>
